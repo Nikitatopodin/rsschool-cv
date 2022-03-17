@@ -38,11 +38,11 @@ let array = []
 ## Education 
 
 * A.S. Griboedov Institute of International Law and Economics, linguist-traslator (2014-2019)
-* RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+* RS Schools Course "JavaScript/Front-end. Stage 1" (in progress)
 * Self-studying (Youtube, Codewars, Codeacademy, Code-basics)
 
 ## Languages
 
-* English – Advanced
-* Russian – Native
-* German – Basic 
+* English - Advanced
+* Russian - Native
+* German - Basic 
