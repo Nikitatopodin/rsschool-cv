@@ -9,11 +9,11 @@
 
 ## About Me
 
-Hey, there! My name is Nikita and I'm 25-years-old. I graduated from A.S. Griboedov Institute of International Law and Economics, majoring in linguist-translator. I'd worked as a freelance translator of movies and series subtitles for 3 months.
+Hey there! My name is Nikita and I'm 25-years-old. I graduated from A.S. Griboedov Institute of International Law and Economics, majoring in linguist-translator. I'd worked as a freelance translator of movies and series subtitles for 3 months.
 
-Now I have a full-time job. I work as an Audiovisual Translation Assistant. I don't actually translate anything at work, mostly, I transcribe Russian and English videos and audios, and create subtitles to videos in programms such as Adobe Affter Effects or Da Vinci Resolve. Sometimes I do some primitive video editing.
+Now I have a full-time job. I work as an Audiovisual Translation Assistant. I don't actually translate anything at work. Mostly, I transcribe Russian and English videos and audios and create subtitles to videos in programms, such as Adobe Affter Effects or Da Vinci Resolve. Sometimes I do some primitive video editing.
 
-I find my job quite boring at the most of the times. And almost two months ago I've decided to try to become a frontend developer. My longterm goal is to become a fullstack developer but we'll see how it goes. May be because of the job I don't have that much time and energy for studying but I'll try my best.
+I find my job quite boring at the most of the times. And around two months ago I've decided to try to become a frontend developer and my longterm goal is to become a full-stack developer but we'll see how it goes. Since i have a full-time job I don't have that much time and energy for studying but I'll try my best.
 
 ## Skills
 
