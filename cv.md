@@ -1,9 +1,10 @@
+# [rsschool-cv](https://nikitatopodin.github.io/rsschool-cv/cv)
+
 # Nikita Bykovsky
 
 ## Contacts
 
 * Location: Moscow, Russia
-* Phone number: +7 915 405-54-46
 * Email: nikitatop1@gmail.com
 * Discord: Nikitatop1(@Nikitatopodin)
 
@@ -37,7 +38,7 @@ let array = []
 ```
 ## Education 
 
-* A.S. Griboedov Institute of International Law and Economics, linguist-traslator (2014-2019)
+* A.S. Griboedov Institute of International Law and Economics, linguist-translator (2014-2019)
 * RS Schools Course "JavaScript/Front-end. Stage 1" (in progress)
 * Self-studying (Youtube, Codewars, Codeacademy, Code-basics)
 
