@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Nikita Bykovsky</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="page">
+			<div class="page__content">
+				<section class="left__side">
+					<div class="img__container">
+						<img src="" alt="">
+					</div>
+					<h1>Nikita <span>Bykovsky</span></h1>
+					<div class="job__name">Frontend Developer </br> (hopefully)</div>
+					<h2 class="left">Contacts</h2>
+					<ul class="contacts__list">
+						<li>Location: Moscow, Russia</li>
+						<li>Email: nikitatop1@gmail.com</li>
+						<li>Discord: Nikitatop1(@Nikitatopodin)</li>
+					</ul>
+
+					<div class="about">
+						<p>Hey, there! My name is Nikita and I’m 26-years-old. I graduated from A.S. Griboedov Institute of
+							International Law and Economics, majoring in linguist-translator.</p>
+						<p>I used to work as a freelance translator of movies and series subtitles for 3 months. After that
+							I
+							worked
+							as an Assistant of Audiovisual translation department for more than a year. I didn’t actually
+							translate
+							anything at work. Mostly, I transcribed Russian and English videos and audios, created subtitles
+							to
+							videos in programms such as Adobe Affter Effects or Da Vinci Resolve and checked tasks, which
+							were
+							done
+							by others, for errors. Sometimes I did some primitive video editing. I also took part in some
+							kind
+							of
+							Machine Translation research of the company.</p>
+						<p>I’ve tried to take RS Schools Course ‘JavaScript/Front-end. Stage 1’ back in a days, but haven’t
+							succeded. This time, I hope, I’ll finish the course and learn lots of new coding stuff.</p>
+					</div>
+					<h2 class="left">Skills</h2>
+					<ul class="normal__list">
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript(Basics)</li>
+					</ul>
+					<h2 class="left">Languages</h2>
+					<div class="languages__wrapper">
+						<ul class="normal__list-language">
+							<li>English</li>
+							<li>Russian</li>
+							<li>German</li>
+						</ul>
+						<ul class="normal__list-language__level">
+							<li>Advanced</li>
+							<li>Native</li>
+							<li>Basic</li>
+						</ul>
+					</div>
+				</section>
+				<section class="right__side">
+					<h2 class="right">Education</h2>
+					<ul class="right__list">
+						<li>A.S. Griboedov Institute of International Law and Economics, linguist-translator</li>
+						<li>RS Schools Course ‘JavaScript/Front-end. Stage 0’</li>
+						<li>Self-studying</li>
+					</ul>
+					<ul>
+						<li>2014 - 2019</li>
+						<li>2022 - Ongoing</li>
+						<li>1996 - Ongoing</li>
+					</ul>
+					<h2>Code Example</h2>
+					<article class="code__task">
+						This is a code example of Luck check KATA from codewars with the following task: In some countries of
+						former Soviet Union there was a belief about lucky tickets. A transport ticket of any sort was
+						believed
+						to posess luck if sum of digits on the left half of its number was equal to the sum of digits on the
+						right half. Your task is to write a funtion luck_check(str), which returns true/True if argument is
+						string decimal representation of a lucky ticket number, or false/False for all other numbers. It
+						should
+						throw errors for empty strings or strings which don’t represent a decimal number.
+					</article>
+					<div class="code__body">
+						<p>function luckCheck(ticket) {
+
+							if (!/^\d+$/.test(ticket)) {
+							throw new Error()
+							}
+							if (ticket.length % 2 == 0) {
+							var arrOne = ticket.substring(0, ticket.length / 2).split('')
+							var arrTwo = ticket.substring(ticket.length / 2, ticket.length + 1).split('')
+							} else {
+							var arrOne = ticket.substring(0, Math.floor(ticket.length / 2)).split('')
+							var arrTwo = ticket.substring(Math.ceil(ticket.length / 2), ticket.length + 1).split('')
+							}
+							return arrOne.reduce((acc, elem) => +acc + +elem) == arrTwo.reduce((acc, elem) => +acc + +elem)
+							}</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
