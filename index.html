@@ -14,18 +14,12 @@
 		<div class="page">
 			<div class="page__content">
 				<section class="left__side">
-					<div class="img__container">
-						<img src="" alt="">
+					<div class="image__container">
+						<img src="/assets/img/01.png" alt="/assets/img/01.png">
 					</div>
 					<h1>Nikita <span>Bykovsky</span></h1>
 					<div class="job__name">Frontend Developer </br> (hopefully)</div>
-					<h2 class="left">Contacts</h2>
-					<ul class="contacts__list">
-						<li>Location: Moscow, Russia</li>
-						<li>Email: nikitatop1@gmail.com</li>
-						<li>Discord: Nikitatop1(@Nikitatopodin)</li>
-					</ul>
-
+					<h2 class="left" id="about">About me</h2>
 					<div class="about">
 						<p>Hey, there! My name is Nikita and I’m 26-years-old. I graduated from A.S. Griboedov Institute of
 							International Law and Economics, majoring in linguist-translator.</p>
@@ -46,13 +40,13 @@
 						<p>I’ve tried to take RS Schools Course ‘JavaScript/Front-end. Stage 1’ back in a days, but haven’t
 							succeded. This time, I hope, I’ll finish the course and learn lots of new coding stuff.</p>
 					</div>
-					<h2 class="left">Skills</h2>
+					<h2 class="left" id="skills">Skills</h2>
 					<ul class="normal__list">
 						<li>HTML</li>
 						<li>CSS</li>
 						<li>JavaScript(Basics)</li>
 					</ul>
-					<h2 class="left">Languages</h2>
+					<h2 class="left" id="languages">Languages</h2>
 					<div class="languages__wrapper">
 						<ul class="normal__list-language">
 							<li>English</li>
@@ -67,16 +61,59 @@
 					</div>
 				</section>
 				<section class="right__side">
+					<nav class="menu">
+						<div class="menu__container">
+							<ul class="menu__container-content">
+								<li><a href="#about">About me</a></li>
+								<li><a href="#skills">Skills</a></li>
+								<li><a href="#languages">Languages</a></li>
+								<li><a href="#contacts">Contacts</a></li>
+							</ul>
+						</div>
+					</nav>
 					<h2 class="right">Education</h2>
-					<ul class="right__list">
-						<li>A.S. Griboedov Institute of International Law and Economics, linguist-translator</li>
-						<li>RS Schools Course ‘JavaScript/Front-end. Stage 0’</li>
-						<li>Self-studying</li>
-					</ul>
-					<ul>
-						<li>2014 - 2019</li>
-						<li>2022 - Ongoing</li>
-						<li>1996 - Ongoing</li>
+					<div class="education__container">
+						<ul class="right__list">
+							<li>
+								<p>Translation and Translation studies</p>
+								<p><span>A.S. Griboedov Institute of International Law and Economics</span>
+								</p>
+							</li>
+							<li>
+								<p>JavaScript/Front-end. Stage 0</p>
+								<p><span>RS School Course</span></p>
+							</li>
+							<li>
+								<p>Self-studying</p>
+
+							</li>
+						</ul>
+						<ul class="education__years">
+							<li>2014 - 2019</li>
+							<li>2022 - Ongoing</li>
+							<li>1996 - Ongoing</li>
+						</ul>
+					</div>
+					<h2>Experience</h2>
+					<div class="experience__container">
+						<ul class="right__list">
+							<li>
+								<p>Assistant of Audiovisual translation department</p>
+								<p><span>NEOTECH, Moscow, Russia</span></p>
+							</li>
+						</ul>
+						<ul class="experience__years">
+							<li>
+								<p>2021 - 2022</p>
+							</li>
+						</ul>
+					</div>
+					<ul class="experience__list">
+						<li>Transcription of audio and video files (English and Russian)</li>
+						<li>Primitive video editing</li>
+						<li>Subtitle editing</li>
+						<li>Work in CAT tools</li>
+						<li>Work process management</li>
 					</ul>
 					<h2>Code Example</h2>
 					<article class="code__task">
@@ -90,25 +127,70 @@
 						throw errors for empty strings or strings which don’t represent a decimal number.
 					</article>
 					<div class="code__body">
-						<p>function luckCheck(ticket) {
+						<p>function luckCheck(ticket) { </br>
 
-							if (!/^\d+$/.test(ticket)) {
-							throw new Error()
-							}
-							if (ticket.length % 2 == 0) {
-							var arrOne = ticket.substring(0, ticket.length / 2).split('')
-							var arrTwo = ticket.substring(ticket.length / 2, ticket.length + 1).split('')
-							} else {
-							var arrOne = ticket.substring(0, Math.floor(ticket.length / 2)).split('')
-							var arrTwo = ticket.substring(Math.ceil(ticket.length / 2), ticket.length + 1).split('')
-							}
-							return arrOne.reduce((acc, elem) => +acc + +elem) == arrTwo.reduce((acc, elem) => +acc + +elem)
+							if (!/^\d+$/.test(ticket)) { </br>
+							throw new Error()</br>
+							}</br>
+							if (ticket.length % 2 === 0) {</br>
+							var arrOne = ticket.substring(0, ticket.length / 2).split('')</br>
+							var arrTwo = ticket.substring(ticket.length / 2, ticket.length + 1).split('')</br>
+							} else {</br>
+							var arrOne = ticket.substring(0, Math.floor(ticket.length / 2)).split('')</br>
+							var arrTwo = ticket.substring(Math.ceil(ticket.length / 2), ticket.length + 1).split('')</br>
+							}</br>
+							return arrOne.reduce((acc, elem) => +acc + +elem) === arrTwo.reduce((acc, elem) => +acc +
+							+elem)</br>
 							}</p>
 					</div>
 				</section>
 			</div>
+			<footer>
+				<h2 class="left" id="contacts">Contacts</h2>
+				<div class="contacts__content">
+					<ul class="contacts__list">
+						<a href="https://goo.gl/maps/negyyACjWXEbY8qj8" target="blank">
+							<div class="contacts__container">
+								<div class="contacts__container-img">
+									<img src="/assets/svg/01.svg" alt="/assets/svg/01.svg" class='location'>
+								</div>
+								<li>Moscow, Russia</li>
+							</div>
+						</a>
+						<a href="malito: nikitatop1@gmail.com">
+							<div class="contacts__container">
+								<div class="contacts__container-img">
+									<img src="/assets/img/02.png" alt="/assets/img/02.png">
+								</div>
+								<li>nikitatop1@gmail.com</li>
+							</div>
+						</a>
+					</ul>
+					<ul class="contacts__list">
+						<a href="https://github.com/Nikitatopodin" target="blank">
+							<div class="contacts__container">
+								<div class="contacts__container-img logo">
+									<img src="/assets/img/03.png" alt="/assets/img/03.png">
+								</div>
+							</div>
+						</a>
+					</ul>
+					<ul class="contacts__list">
+						<a href="https://rs.school/js-stage0/" target="blank">
+							<div class="contacts__container">
+								<div class="contacts__container-img logo">
+									<img src="/assets/svg/02.svg" alt="/assets/svg/02.svg">
+								</div>
+						</a>
+					</ul>
+					<ul class="contacts__list">
+						<li>© 2022 by Nikita Bykovsky</li>
+					</ul>
+				</div>
+			</footer>
 		</div>
 	</div>
+
 </body>
 
 </html>
