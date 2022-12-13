@@ -246,7 +246,7 @@ h2 {
 }
 
 .code__body {
-	margin-top: 20px;
+	margin: 20px;
 	background-color: rgba(240, 230, 227, 1);
 	padding: 10px;
 }
@@ -261,6 +261,7 @@ h2 {
 footer {
 	padding: 10px 25px 25px 25px;
 	background-color: rgba(23, 65, 138, 1);
+	max-width: 1200px;
 }
 
 .contacts__content {
@@ -296,5 +297,23 @@ footer {
 .logo img {
 	width: 100px;
 	height: 100px;
-	top: 0
+	top: 0;
+}
+
+
+.menu__container-content {
+	display: flex;
+	justify-content: right;
+
+}
+
+.menu__container-content li {
+	margin: 30px 30px;
+	font-size: 22px;
+	font-weight: 700;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.menu__container-content li a {
+	color: navy;
 }
