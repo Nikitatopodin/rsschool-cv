@@ -1,2 +1,2 @@
 # rsschool-cv
-init: start task rsschool-cv
+https://nikitatopodin.github.io/rsschool-cv/cv
