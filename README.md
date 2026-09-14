@@ -1,1 +1,1 @@
-# https://nikitatopodin.github.io
+https://nikitatopodin.github.io/rsschool-cv/cv
